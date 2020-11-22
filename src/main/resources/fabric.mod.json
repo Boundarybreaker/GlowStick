@@ -1,28 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "starter",
+  "id": "glowstick",
   "version": "${version}",
 
-  "name": "Fabric Starter",
-  "icon": "assets/starter/icon.png",
-  "description": "Template for starting out Fabric mods",
+  "name": "GlowStick",
+  "icon": "assets/glowstick/icon.png",
+  "description": "Vanilla-friendly glowstick in Canvas",
   "license": "MIT",
   "contact": {
-    "sources": "https://github.com/CottonMC/FabricStarter"
+    "sources": "https://github.com/Boundarybreaker/GlowStick"
   },
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.cottonmc.starter.FabricStarter"
+      "space.bbkr.glowstick.GlowStick"
     ]
   },
-  "mixins": [
-    "mixins.starter.json"
-  ],
   "depends": {
     "fabricloader": ">=0.4.0"
-  },
-  "custom": {
-    "modmenu:api": true
   }
 }
